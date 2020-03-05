@@ -1,0 +1,22 @@
+{
+  "name": "project2-touringcamper",
+  "version": "1.0.0",
+  "description": "### Problem:  I am passionate about camping and I want an app for camping with reviews from real people ### General App Idea/Purpose:  Website that allows people to see cool places to camp with reviews from real people. ### Who Would Use It:  Camping enthusiasts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahuiban/Project2-TouringCamper.git"
+  },
+  "author": "Andrei H.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahuiban/Project2-TouringCamper/issues"
+  },
+  "homepage": "https://github.com/ahuiban/Project2-TouringCamper#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
