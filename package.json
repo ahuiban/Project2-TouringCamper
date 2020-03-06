@@ -4,7 +4,8 @@
   "description": "### Problem:  I am passionate about camping and I want an app for camping with reviews from real people ### General App Idea/Purpose:  Website that allows people to see cool places to camp with reviews from real people. ### Who Would Use It:  Camping enthusiasts",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/ahuiban/Project2-TouringCamper#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
   }
 }
