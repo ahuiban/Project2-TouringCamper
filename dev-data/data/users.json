@@ -2,7 +2,11 @@
   {
     "_id": "5c8a1d5b0190b214360dc057",
     "name": "Andrei Huiban",
+<<<<<<< HEAD
     "email": "admin@exampple.com",
+=======
+    "email": "admin@example.com",
+>>>>>>> 3a794b3c25e10f06e54447544bb5700ed10b9ced
     "role": "admin",
     "active": true,
     "photo": "user-1.jpg",
