@@ -4,7 +4,7 @@
   "description": "### Problem:  I am passionate about camping and I want an app for camping with reviews from real people ### General App Idea/Purpose:  Website that allows people to see cool places to camp with reviews from real people. ### Who Would Use It:  Camping enthusiasts",
   "main": "app.js",
   "scripts": {
-    "start:dev": "nodemon server.js",
+    "start": "nodemon server.js",
     "start:prod": "NODE_ENV=production nodemon server.js"
   },
   "repository": {
@@ -20,6 +20,23 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "morgan": "^1.9.1"
+    "mongoose": "^5.9.3",
+    "morgan": "^1.9.1",
+    "slugify": "^1.4.0",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.17.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
